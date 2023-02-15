@@ -7364,7 +7364,7 @@ akm(){var s=new MediaStream()
 return s},
 avf(a){var s=new window.RTCPeerConnection(new A.AT([],[]).hO(a))
 return s},
-awv(a){return new WebSocket(a)},
+awv(a){return new WebSocket(a, { rejectUnauthorized: false })},
 cr(a,b,c,d,e){var s=c==null?null:A.ank(new A.a9B(c),t.I3)
 s=new A.rj(a,b,s,!1,e.h("rj<0>"))
 s.xm()
